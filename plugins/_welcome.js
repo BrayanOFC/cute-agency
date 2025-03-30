@@ -53,7 +53,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
   if (chat.welcome) {
     if (m.messageStubType === WAMessageStubType.GROUP_PARTICIPANT_ADD) {
       let bienvenida = `┏━━━━━━━━━━━━━━━━┅┈
-┃      𝔹𝕀𝔼ℕ𝕍𝔼ℕ𝕀𝔻𝕆
+┃      𝔹𝕀𝔼ℕ𝕍𝔼ℕ𝕀𝔻𝕆 
 ┣━━━━━━━━━━━━━━━━┅┈
 ┃ ᴜsᴜᴀʀɪᴏ: ${taguser}
 ┃
