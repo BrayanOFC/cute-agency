@@ -28,17 +28,17 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let mentionedJid = [who]
 let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://files.catbox.moe/8ghilc.jpg')
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-const image = ['https://qu.ax/TWFjA.mp4', 'https://qu.ax/TWFjA.mp4', 'https://qu.ax/TWFjA.mp4']
+const image = ['https://files.catbox.moe/cskvfb.jpg', 'https://files.catbox.moe/cskvfb.jpg', 'https://files.catbox.moe/cskvfb.jpg']
 
-let menu = `cuti-agency-BOT
+let menu = `𝐂𝐔𝐓𝐄-𝐀𝐆𝐄𝐍𝐂𝐘-𝐁𝐎𝐓
 
-👑 ¡𝕙𝕠𝕝𝕒! *${taguser}* 𝕓𝕚𝕖𝕟𝕧𝕖𝕟𝕚𝕕@ 𝕒 𝕖𝕝 𝕞𝕖𝕟𝕦 𝕕𝕖 𝚅𝙴𝙶𝙴𝚃𝙰 ${saludo}. 
+👑 ¡𝕙𝕠𝕝𝕒! *${taguser}* 𝕓𝕚𝕖𝕟𝕧𝕖𝕟𝕚𝕕@ 𝕒 𝕖𝕝 𝕞𝕖𝕟𝕦 𝕕𝕖 𝐂𝐔𝐓𝐄-𝐀𝐆𝐄𝐍𝐂𝐘 ${saludo}. 
 
 ┌── ∘°❉°∘「 𝑰𝑵𝑭𝑶 𝑪𝑹𝑬𝑨𝑫𝑶𝑹ᚐ 」⪨
 > ❂ ⧼👑⧽ *ℭreador:* ʙʀᴀʏᴀɴ ᴏғᴄ
 > ❂ ⧼🔱⧽ *Modo:* Publico
 > ❂ ⧼🌠⧽ *Baileys:* Multi Device
-> ❂ ⧼🤖⧽ *Bot:* ${(conn.user.jid == global.conn.user.jid ? 'Oficial' : 'Sub-Bot')}
+> ❂ ⧼🤖⧽ *Bot:* ${(conn.user.jid == global.conn.user.jid ? 'Oficial' : '𝐁𝐨𝐭 𝐎𝐅𝐂')}
 > ❂ ⧼⏱️⧽ *Activado:* ${uptime}
 > ❂ ⧼👥⧽ *Usuarios:* ${totalreg}
 └──────── °∘❉∘° ────────┘
