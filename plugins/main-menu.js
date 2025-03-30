@@ -6,7 +6,7 @@ import { promises } from 'fs'
 import { join } from 'path'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, command }) => {
 try {        
-/*let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}*/
+let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
 let { exp, cutemonedas, level, role } = global.db.data.users[m.sender]
 let { min, xp, max } = xpRange(level, global.multiplier)
 let name = await conn.getName(m.sender)
@@ -28,7 +28,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let mentionedJid = [who]
 let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://files.catbox.moe/8ghilc.jpg')
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-const image = ['https://files.catbox.moe/cskvfb.jpg', 'https://files.catbox.moe/cskvfb.jpg', 'https://files.catbox.moe/cskvfb.jpg']
+const image = ['https://files.catbox.moe/cskvfb.jpg', 'https://files.catbox.moe/cskvfb.jpg','https://files.catbox.moe/cskvfb.jpg']
 
 let menu = `𝐂𝐔𝐓𝐄-𝐀𝐆𝐄𝐍𝐂𝐘-𝐁𝐎𝐓
 
