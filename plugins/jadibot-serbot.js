@@ -73,7 +73,7 @@ vegetaJBOptions.conn = conn
 vegetaJBOptions.args = args
 vegetaJBOptions.usedPrefix = usedPrefix
 vegetaJBOptions.command = command
-vegetaJadiBot(kiritoJBOptions)
+vegetaJadiBot(vegetaJBOptions)
 global.db.data.users[m.sender].Subs = new Date * 1
 } 
 handler.help = ['serbot', 'serbot code']
