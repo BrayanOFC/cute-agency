@@ -32,7 +32,7 @@ const image = ['https://files.catbox.moe/cskvfb.jpg', 'https://files.catbox.moe/
 
 let menu = `𝐂𝐔𝐓𝐄-𝐀𝐆𝐄𝐍𝐂𝐘-𝐁𝐎𝐓
 
-"「💛」 ¡Hola! *%name* %greeting, bienvenido a el menu 
+👑 ¡𝕙𝕠𝕝𝕒! *${taguser}* 𝕓𝕚𝕖𝕟𝕧𝕖𝕟𝕚𝕕@ 𝕒 𝕖𝕝 𝕞𝕖𝕟𝕦 𝕕𝕖 𝚅𝙴𝙶𝙴𝚃𝙰 ${saludo}.  
 
 ┌── ∘°❉°∘「 𝑰𝑵𝑭𝑶 𝑪𝑹𝑬𝑨𝑫𝑶𝑹ᚐ 」⪨
 > ❂ ⧼👑⧽ *ℭreador:* ʙʀᴀʏᴀɴ ᴏғᴄ
