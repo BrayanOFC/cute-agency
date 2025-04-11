@@ -30,9 +30,9 @@ let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://file
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 const vid = ['https://files.catbox.moe/cskvfb.jpg', 'https://files.catbox.moe/cskvfb.jpg','https://files.catbox.moe/cskvfb.jpg']
 
-let menu = `𝐂𝐔𝐓𝐄-𝐀𝐆𝐄𝐍𝐂𝐘-𝐁𝐎𝐓
+let menu = `𝒊𝒏𝒑𝒂𝒄𝒕𝒊𝒏𝒈-𝒏𝒆𝒕𝒘𝒐𝒓𝒔-𝑩𝑶𝑻
 
-👑 ¡𝕙𝕠𝕝𝕒! *${taguser}* 𝕓𝕚𝕖𝕟𝕧𝕖𝕟𝕚𝕕@ 𝕒 𝕖𝕝 𝕞𝕖𝕟𝕦 𝕕𝕖 𝚅𝙴𝙶𝙴𝚃𝙰 ${saludo}.  
+👑 ¡𝕙𝕠𝕝𝕒! *${taguser}* 𝕓𝕚𝕖𝕟𝕧𝕖𝕟𝕚𝕕@ 𝕒 𝕖𝕝 𝕞𝕖𝕟𝕦 𝕕𝕖 𝑰𝒏𝒑𝒂𝒄𝒕𝒊𝒏𝒈 ${saludo}.  
 
 ┌── ∘°❉°∘「 𝑰𝑵𝑭𝑶 𝑪𝑹𝑬𝑨𝑫𝑶𝑹ᚐ 」⪨
 > ❂ ⧼👑⧽ *ℭreador:* ʙʀᴀʏᴀɴ ᴏғᴄ
