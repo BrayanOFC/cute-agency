@@ -1,5 +1,5 @@
 /* 
-- tagall By Angel-OFC  
+- tagall By BrayanOFC  
 - etiqueta en un grupo a todos
 - https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y
 */
